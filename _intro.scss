@@ -13,3 +13,20 @@
     margin-bottom: 30px;
     margin-top: 40px;
 }
+@media screen and (max-width:1023px) {
+    .intro-content {
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width:767px) {
+    .intro {
+        padding: 25px 0 50px;
+        display: block;
+    & > * {
+        width: 100%;
+    }
+    &-content {
+        margin-bottom: 80px;
+    }
+    }
+}

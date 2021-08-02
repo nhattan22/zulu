@@ -20,6 +20,11 @@
         margin: 40px 0 50px;
         max-width: 250px;
     }
+    @media screen and (max-width: 767px) {
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: auto auto;
+          grid-gap: 50px 20px;
+      }
 }
 .social {
     display: inline-flex;

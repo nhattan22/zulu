@@ -10,6 +10,10 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    *:not(img) {
+        position: relative;
+        z-index: 100;
+    }
     &-heading {
         margin-bottom: 30px;
     }
@@ -31,5 +35,13 @@
         top: 0;
         right: 0;
         transform: translate(50%, -50%);
+    }
+    @media screen and (max-width: 767px) {
+        margin-top: 0;
+    &-comment,
+    &-smile {
+        max-width: 20%;
+        transform: none;
+        }
     }
 }

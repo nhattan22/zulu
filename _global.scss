@@ -129,4 +129,13 @@ body {
     .button {
         padding: 10px;
     }
+    .block {
+        margin-bottom: 50px;
+        &-heading {
+            font-size: 35px;
+        }
+        &-caption {
+            margin-bottom: 20px;
+        }
+    }
 } 
